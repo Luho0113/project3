@@ -147,6 +147,9 @@ basket_buttonEvent3.addEventListener(
 //선택상품제어버튼
 //삭제하기 버튼
 const select_remove_buttonEvent = document.getElementById("remove_button");
+select_remove_buttonEvent.addEventListener("click", function () {
+  alert("정말 삭제하시겠습니까?");
+});
 select_remove_buttonEvent.addEventListener(
   "mouseout",
   function (event) {
@@ -165,8 +168,12 @@ select_remove_buttonEvent.addEventListener(
   },
   false
 );
+
 //관심상품등록버튼
 const select_buttonEvent = document.getElementById("select_button");
+select_buttonEvent.addEventListener("click", function () {
+  alert("관심 상품에 등록되었습니다.");
+});
 select_buttonEvent.addEventListener(
   "mouseout",
   function (event) {
@@ -185,6 +192,7 @@ select_buttonEvent.addEventListener(
   },
   false
 );
+
 //장바구니비우기버튼
 const select_removeAll_buttonEvent =
   document.getElementById("removeAll_button");
