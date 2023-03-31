@@ -1,0 +1,38 @@
+
+#infoBox{
+    background-color: rgb(245,245,245,0.5);
+    box-shadow: 0 -0.5px rgb(155, 155, 155);
+    /* bottom: -1850px; */
+    height: 300px;
+    width: 100%;
+} 
+
+.infoContainer{
+    position: relative;
+    margin:0 auto;
+    width: 1245px;
+    height: 300px;
+}
+
+.infoContainer div {
+    top: 50px;
+    position: relative;
+    float: left;
+    font-size: x-small;
+}
+.text1{
+    padding: 0 80px 0 0;
+}
+.text2{
+    padding: 0 80px 0 80px;
+}
+.text3{
+    padding: 0 80px 0 80px;
+}
+.text4{
+    padding: 0 0 0 40px;
+    height: 200px;
+    box-shadow: -0.5px 0 rgb(155, 155, 155);
+}
+
+

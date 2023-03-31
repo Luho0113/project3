@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>싸고 예쁜 10대 쇼핑몰 핫텐</title>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="./orderListContainer.css" />
+    <link rel="stylesheet" href="./orderListTab.css" />
+    <link rel="stylesheet" href="./orderListPeriod.css" />
+    <link rel="stylesheet" href="./orderListInfo.css" />
+    <link rel="stylesheet" href="./orderListPageHistory.css" />
+
+    <link rel="stylesheet" href="../mainheader.css" />
+    <link rel="stylesheet" href="../mainInfo.css" />
+    <link rel="stylesheet" href="../mainFloat.css" />
+
+    <link rel="shortcut icon" href="../logo/titleLogo.png">
+    <link rel="stylesheet" href="../main/mainheader.css" />
+    <link rel="stylesheet" href="../main/mainImg.css" />
+    <link rel="stylesheet" href="../main/mainItem.css" />
+    <link rel="stylesheet" href="../main/mainInfo.css" />
+    <link rel="stylesheet" href="../main/mainFloat.css" />
+    <link rel="stylesheet" href="../main/mainHidden.css" />
+
+    <!--폰트-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--웹페이지 로고-->
+    <link rel="shortcut icon" href="../logo/titleLogo.png" />
+  </head>
+  <body>
+    <div id="header">
+        <div class="mainBar">
+            <div class="leftMainBar">
+                <div> <a href="../login/login.html"> 로그인 </a></div>
+                <div> <a href="../join/join.html"> 회원가입 </a></div>
+                <div> <a href="../basket/basket.html"> 장바구니 </a></div>
+                <div> <a href="../orderList/orderList.html"> 주문조회 </a></div>
+                <div> <a href=""> 마이페이지 </a></div>
+                <div> <a href=""> 즐겨찾기 </a></div>
+            </div>
+                
+            <div class="rightMainBar">
+                <div> <a href=""> NOTICE </a></div>
+                <div> <a href="../q&a/q&a.html"> Q & A </a></div>
+                <div> <a href=""> REVIEW </a></div>
+                <div> <a href=""> MODEL </a></div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="logo">
+        <a href="../main/main.html">
+            <img src="../logo/coolTenLogo.png" class="logoimg">
+        </a>
+        
+        <div class="search">
+            <input type="text" style="height: 20px;"> <!--귀찮아서 여기다가 스타일만들어줌 ㅇㅅㅇ;;-->
+            <img src="../mainImage/searchImg.PNG" class="searchImg">
+            <div class="searchImg">
+            </div>
+        </div>
+    </div>
+    
+    <div id="menuBar">
+        <div class="innerBox">
+            <div class="all"> <a href=""> ALL </a>
+                <div class="all-content">
+                    <div class="warrap">
+                        <div class="topMenu"> TOP</div>
+                        <div class="topMenu"> BOTTOM</div>
+                        <div class="topMenu"> OUTER</div>
+                        <div class="topMenu"> TOP</div>
+                        <div class="topMenu"> ACC</div>
+                    </div>
+                    <div class="warrap">
+                        <div class="down">
+                            <a href="#">티셔츠</a>
+                            <a href="#">반팔티</a>
+                            <a href="#">블라우스/남방</a>
+                        </div>
+                        <div class="down">
+                            <a href="#">긴바지</a>
+                            <a href="#">반바지</a>
+                            <a href="#">치마</a>
+                            <a href="#">레깅스</a>
+                            <a href="#">멜빵</a>
+                        </div>
+                        <div class="down">
+                            <a href="#">가디건</a>
+                            <a href="#">점퍼/야상</a>
+                            <a href="#">자켓/코트</a>
+                        </div>
+                        <div class="down">
+                            <a href="#">치마</a>
+                            <a href="#">원피스</a>
+                        </div>
+                        <div class="down">
+                            <a href="#">모자</a>
+                            <a href="#">양말</a>
+                        </div>
+                    </div>
+                    <div class="warrap">
+                        <div class="topMenu"> SALE</div>
+                        <div class="topMenu"> BEST 50</div>
+                        <div class="topMenu"> CUMMUNITY</div>
+                        <div class="topMenu"> WHIT US</div>
+                    </div>
+                    <div class="warrap2">
+                        <div class="down">
+                            <a href="#">NOTICE</a>
+                            <a href="#">Q & A</a>
+                            <a href="#">REVIEW</a>
+                            <a href="#">MODEL</a>
+                        </div>
+                        <div class="down">
+                            <a href="#">COMPANY</a>
+                            <a href="#">AGREEMENT</a>
+                            <a href="#">PRAIVACY POLICY</a>
+                            <a href="#">GUIDE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="top"> <a class="select" href=""> TOP</a>
+                <div class="top-content">
+                    <a href="#">티셔츠</a>
+                    <a href="#">반팔티</a>
+                    <a href="#">블라우스/남방</a>
+                </div>
+            </div>
+            <div class="bottom"> <a class="select" href=""> BOTTOM</a>
+                <div class="bottom-content">
+                    <a href="#">긴바지</a>
+                    <a href="#">반바지</a>
+                    <a href="#">치마</a>
+                    <a href="#">레깅스</a>
+                    <a href="#">멜빵</a>
+                </div>
+            </div>
+
+            <div class="outer"> <a class="select" href=""> OUTER</a>
+                <div class="outer-content">
+                    <a href="#">가디건</a>
+                    <a href="#">점퍼/야상</a>
+                    <a href="#">자켓/코트</a>
+                </div>
+            </div>
+
+            <div class="skirt"> <a class="select" href=""> SKIRT/OPS</a>
+                <div class="skirt-content">
+                    <a href="#">치마</a>
+                    <a href="#">원피스</a>
+                </div> 
+            </div>
+
+            <div class="acc"> <a class="select" href=""> ACC</a>
+                <div class="acc-content">
+                    <a href="#">모자</a>
+                    <a href="#">양말</a>
+                </div>
+            </div>
+            <div class="sale"> <a class="select" href=""> SALE</a></div>
+            <div class="best50"> <a class="select" href=""> BEST 50</a></div>
+            </div>
+            
+    </div>  
+
+    <!--주문조회 페이지-->
+    <div id="contaiber">
+      <div id="contents">
+        <!--현재 페이지 안내-->
+        <div class="location-subpage">
+          <div class="path-subpage">
+            <ol>
+              <li>
+                <a id="home" href="#">Home</a>
+              </li>
+              <li>
+                <img src="../img/ico_bullet_path.png" />
+              </li>
+              <li>
+                <strong>Order Details</strong>
+              </li>
+            </ol>
+          </div>
+          <!--현재 위치-->
+          <div class="title-subpage">
+            <h2>ORDER DETAILS</h2>
+          </div>
+        </div>
+
+        <!--탭 + 주문 목록 박스-->
+        <div class="tab">
+          <!--탭-->
+          <div class="menu">
+            <div class="order-search">
+              <a href="#">주문내역조회 (0)</a>
+            </div>
+            <div class="return-search">
+              <a href="#">취소/반품/교환 내역 (0) </a>
+            </div>
+          </div>
+          <!--주문기간 조회 박스-->
+          <div class="order-periodBox">
+            <div class="stateSelect">
+              <!--상품 상태 선택창-->
+              <select name="order-state" id="order-state">
+                <option value="all">전체 주문처리상태</option>
+                <option value="shipped_before">입금전</option>
+                <option value="shipped_stand">배송준비중</option>
+                <option value="shipped_begin">배송중</option>
+                <option value="shipped_complate">배송완료</option>
+                <option value="order_cacle">취소</option>
+                <option value="order_exchange">교환</option>
+                <option value="order_return">반품</option>
+              </select>
+              <div class="division">|</div>
+              <div class="period">
+                <div id="period_left">
+                  <a href="#"> 오늘 </a>
+                </div>
+                <div><a href="#">1주일</a></div>
+                <div><a href="#">1개월</a></div>
+                <div><a href="#">3개월</a></div>
+                <div id="period_right">
+                  <a href="#">6개월</a>
+                </div>
+              </div>
+              <div class="calendar">
+                <input type="date" id="start_date" value="2022-12-17" />
+                <img src="../img/ico_cal.png" />
+                ~ <input type="date" id="end_date" value="" />
+                <img src="../img/ico_cal.png" />
+              </div>
+              <div class="serach_button">
+                <input type="button" id="search_button" value="조회" />
+              </div>
+            </div>
+          </div>
+          <div class="order-helpText">
+            <ul>
+              <li>
+                기본적으로 최근 3개월간의 자료가 조회되며, 기간 검색시 지난
+                주문내역을 조회하실 수 있습니다.
+              </li>
+              <li>
+                주문번호를 클릭하시면 해당 주문에 대한 상세내역을 확인하실 수
+                있습니다.
+              </li>
+            </ul>
+          </div>
+
+          <!--주문 상품 정보 타이틀-->
+          <div class="item-Information">
+            <div class="ordered-title">
+              <h3>주문 상품 정보</h3>
+            </div>
+            <table id="item_header">
+              <thead>
+                <th style="width: 165px">주문일자<br />[주문번호]</th>
+                <th style="width: 93px">이미지</th>
+                <th style="width: 446px">상품정보</th>
+                <!--상품정보 : 원래는 auto 설정-->
+                <th style="width: 61px">수량</th>
+                <th style="width: 111px">상품구매금액</th>
+                <th style="width: 111px">주문처리상태</th>
+                <th style="width: 111px">취소/교환/반품</th>
+              </thead>
+              <tbody class="item-table-body"></tbody>
+            </table>
+          </div>
+
+          <!--주문 목록 내용-->
+          <div class="ordered-page">
+            <!--주문 목록이 비어있는 경우-->
+            <div class="order-empty">
+              <div class="icon_basket_empty">
+                <img src="../img/icon_basket_empty.PNG" />
+              </div>
+              주문 내역이 없습니다.
+            </div>
+          </div>
+        </div>
+
+        <!--페이지 이동버튼-->
+        <div class="page-history">
+          <div class="page-button">
+            <p class="first">
+              <a href="#">
+                <img
+                  src="https://hot-10.com/web/upload/dfloor_base/web/button/btn_pagingFirst.png"
+                />
+              </a>
+            </p>
+            <p class="previous">
+              <a href="#">
+                <img
+                  src="https://hot-10.com/web/upload/dfloor_base/web/button/btn_pagingPrev.png"
+                />
+              </a>
+            </p>
+            <div class="page-list">
+              <ol>
+                <li>
+                  <a href="#">1</a>
+                </li>
+                <li>
+                  <a href="#">2</a>
+                </li>
+              </ol>
+            </div>
+            <p class="after">
+              <a href="#">
+                <img
+                  src="https://hot-10.com/web/upload/dfloor_base/web/button/btn_pagingNext.png"
+                />
+              </a>
+            </p>
+            <p class="last">
+              <a href="#">
+                <img
+                  src="https://hot-10.com/web/upload/dfloor_base/web/button/btn_pagingLast.png"
+                />
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<div id="infoBox">
+        <div class="infoContainer">
+            <div class="text1"><strong style="font-size: larger;">핫텐 <br>COPYRIGHT © 핫텐 ALL RIGHTS RESERVED.<br></strong>
+                <br>
+                TEL070-8111-0841 <br>평일 오후 1:00 ~ 오후 6:00 / 토.일.공휴일 휴무 <br>
+                COMPANY주식회사 핫텐OWNER신수정 <br>
+                ADDRESS01351 서울특별시 도봉구 방학동 654-21 2층 핫텐 <br>
+                MASTER신수정E-MAILhot_10@naver.com <br>
+                BUSINESS LICENSE702-87-01464 <br>
+                MALL-ORDER LICENSE2019-서울도봉-0660호 <br>
+                HOSTING By CAFE24|DESIGNED By DFLOOR</div>
+            <div class="text2"><strong style="font-size: larger;">ACCOUNT INFO</strong><br><br>
+                농협 301-0256-5887-61<br>
+                예금주 : 주식회사 핫텐 </div>
+            <div class="text3"><strong style="font-size: larger;">WITH US</strong><br><br>
+                COMPANY<br>
+                AGREEMENT<br>
+                PRIVACY POLICY<br>
+                GUIDE<br><br>
+                SOCIAL NETWORK </div>
+            <div class="text4"><strong style="font-size: larger;">RETURN / EXCHANGE</strong><br><br>
+                132010 서울특별시 도봉구 도봉동 cj대한통운 강북지점 도봉1팀 '핫텐'<br>
+                (CJ대한통운택배 가상주소로 CJ택배로만 반품가능함)<br>
+                자세한 교환·반품절차 안내는 문의란 및 공지사항을 참고해주세요</div>
+        </div> 
+    </div> 
+
+    <div id="floatArea">
+      <table>
+          <tr>
+              <td><img src="../mainImage/floatSearch.PNG"></td>
+          </tr>
+          <tr>
+              <td class="needLine"><img src="../mainImage/floatShip.PNG"></td>
+          </tr>
+          <tr>
+              <td class="needLine"><img src="../mainImage/floatCart.PNG"></td>
+          </tr>
+          <tr>
+              <td class="needLine"><img src="../mainImage/floatSee.PNG"></td>
+          </tr>
+          <tr>
+              <td><a href="#top"><img src="../mainImage/floatUp.PNG"></a></td>
+          </tr>
+          <tr>
+              <td><a href="#infoBox"><img src="../mainImage/floatDown.PNG"></a></td>
+          </tr>
+
+      </table>
+  </div>
+  </body>
+  <script>
+    //오늘 날짜 = 선택할 수 있는 마지막 날짜
+    //new Date() : 현재 시간을 가진 객체 리턴
+    //toISOString() : 현재 일자를 ISO Standard 형식으로 변환
+    //문자열에서 0~9번째 인덱스값만 가져옴
+    document.getElementById("end_date").value = new Date()
+      .toISOString()
+      .substring(0, 10);
+  </script>
+  <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
+  <script src="../main.js"></script>
+  <script src="../mainImg.js"></script>
+  <script src="../mainHidden.js"></script>
+</html>

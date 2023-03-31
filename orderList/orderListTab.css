@@ -1,0 +1,54 @@
+.tab {
+  margin-top: 40px;
+}
+
+.menu {
+  border-bottom: 1px solid #e7e7e7;
+  border-color: #5a5a5a;
+  margin-bottom: 20px;
+}
+
+.order-search {
+  /* 주문내역조회 탭 */
+  display: inline-block;
+  width: 187px;
+  padding: 12px 5px 11px;
+  text-align: center;
+  font-size: 11px;
+  color: #ffffff;
+  background: #5a5a5a;
+}
+
+.return-search {
+  /* 취소/반품/교환 내역 탭 */
+  display: inline-block;
+  width: 187px;
+  margin-left: -6px;
+  padding: 12px 5px 11px;
+  text-align: center;
+  font-size: 11px;
+  color: #ffffff;
+  background: #ffffff;
+  color: #5a5a5a;
+  border-right: 1px solid #e7e7e7;
+  border-top: 1px solid #e7e7e7;
+}
+
+.order-empty {
+  text-align: center;
+  padding: 150px 0 150px;
+  font-size: 11px;
+  color: #757575;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.icon_basket_empty {
+  display: flex;
+  justify-content: center; /*flex에서 사용하는 중앙 정렬 속송*/
+}
+
+.basket-empty img {
+  margin: auto;
+  display: block;
+  margin: 0 0 5px;
+}

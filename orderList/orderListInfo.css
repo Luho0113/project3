@@ -1,0 +1,33 @@
+/* 주문 상품 정보 타이틀 */
+
+.ordered-title {
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.ordered-title h3 {
+  color: #353535;
+  font-size: 12px;
+  display: block;
+  font-weight: bold;
+}
+
+#item_header {
+  border: 0;
+  border-spacing: 0;
+}
+
+#item_header thead {
+  display: block;
+  font-size: 11px;
+}
+
+#item_header th {
+  line-height: 1.5;
+  padding: 12px 0 11px;
+  vertical-align: middle;
+  border-top: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
+  color: #353535;
+  font-weight: 100;
+}

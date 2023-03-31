@@ -1,0 +1,55 @@
+.help {
+  margin: 20px 0;
+  border: 1px solid #e7e7e7;
+  line-height: 18px;
+}
+
+.help .help-inner {
+  padding: 5px 17px 23px;
+}
+.help h3 {
+  /*이용안내*/
+  font-size: 11px;
+  color: #101010;
+  border-bottom: 1px solid #e7e7e7;
+  padding: 10px 0 8px 12px;
+  background: #fafafa;
+}
+
+.help h4:first-child {
+  /*h4 첫 번째 자식만*/
+  margin-top: 20px;
+}
+
+.help h4 {
+  /*장바구니, 무이자할부 이용안내*/
+  font-size: 11px;
+  font-weight: bold;
+  margin: 22px 0 -4px;
+}
+
+.help ol {
+  /*안내 목록*/
+  font-size: 11px;
+  margin: 15px 0 0 0;
+  color: #707070;
+  list-style: none;
+}
+
+.help li {
+  display: block;
+  line-height: 14px;
+  padding: 2px;
+}
+
+.help .square {
+  display: inline-block;
+  border: 1px solid #a7a7a7;
+  background-color: #e7e7e7;
+  width: 14px;
+  height: 14px;
+  text-align: center;
+  color: #fff;
+  text-shadow: #707070;
+  font-weight: bold;
+}

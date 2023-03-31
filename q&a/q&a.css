@@ -1,0 +1,123 @@
+#locationOut{
+    margin: 0;
+}
+.locationIn{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.boardText1{
+    font-size: smaller;
+    float: right;
+    margin: 10px 0 0 0;
+}
+.boardText2{
+    margin: 30px 0 0 0;
+}
+
+.boardText3{
+    font-size: smaller;
+    margin: 10px 0 0 0;
+}
+
+
+
+
+
+#tableOut{
+    margin: 0;
+}
+.tableIn{
+    width: 1200px;
+    margin: 30px auto;
+}
+.boardTable{
+    border-collapse: collapse;
+    font-size: smaller;
+    text-align: center;
+}
+
+.notice{
+    background-color: rgba(179, 179, 179,0.1);
+}
+.boardTable img{
+    width: 60px;
+    padding: 5px;
+}
+
+.boardTable tr{
+    height: 40px;
+    border-left: none !important;
+    border-right: none !important;
+    border: 1px solid rgb(179, 179, 179);
+}
+
+.boardTable td{
+
+}
+
+.table1{
+    width: 60px;
+}
+.table2{
+    width: 80px;
+}
+.table3{
+    width: 830px;
+}
+.table4{
+    width: 70px;
+}
+.table5{
+    width: 100px;
+}.table6{
+    width: 60px;
+}
+.table3Write{
+    text-align: initial;
+}
+
+.writeButton{
+    margin: 10px 0 0 0 ;
+    padding: auto;
+    background-color: black;
+    float: right;
+    color: white;
+    height: 30px;
+    width: 80px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: small;
+}
+
+.writeButton a{
+    position: relative;
+    top: 5px;
+}
+
+
+#pageNationOut{
+    margin: 0;
+}
+.pageNationIn{
+    width: 360px;
+    margin: 20px auto;
+}
+.pageNation{
+    border-collapse: collapse;
+    font-size: smaller;
+    text-align: center;
+}
+
+.pageNation td{
+    border: 1px solid rgb(179, 179, 179);
+    width: 30px;
+}
+
+.pageNation pre{
+    margin: 0;
+}
+
+.pageNation tr{
+    height: 30px;
+}

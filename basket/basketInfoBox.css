@@ -1,0 +1,57 @@
+/* 회원 정보 박스 */
+
+.info-box {
+  border-style: solid;
+  border-width: 1px;
+  background-color: #fafafa;
+  border-color: #e7e7e7;
+}
+
+.information {
+  display: table; /*부모한테 table*/
+  padding: 15px 0;
+  width: 100%;
+  font-size: 11px;
+}
+
+.description {
+  display: table-cell; /*자식한테 table-cell*/
+  vertical-align: middle;
+  padding: 0 15px 0 17px;
+  width: auto;
+  border-left: 1px solid #e7e7e7;
+  vertical-align: middle;
+}
+
+.title {
+  /* 혜택정보 */
+  vertical-align: middle;
+  text-align: center;
+  padding: 15px 5px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.member {
+  /*땡땡님은 어쩌구*/
+  /* display: table-cell; */
+  vertical-align: middle;
+}
+
+.member p {
+  display: block;
+}
+.mileage {
+  margin: 8px 0 0;
+  padding: 8px 0 0;
+  border-top: 1px solid #e8e8e8;
+}
+
+.mileage strong {
+  color: #424242;
+}
+
+.mileage li {
+  float: left;
+  margin: 0 40px 0 0;
+}

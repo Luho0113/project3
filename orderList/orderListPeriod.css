@@ -1,0 +1,119 @@
+/*주문기간조회박스*/
+
+.order-periodBox {
+  padding: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #e7e7e7;
+  color: #404040;
+}
+
+.stateSelect {
+  display: inline-block;
+  padding: 0 12px 0 0;
+  margin: 0 5px 0 2px;
+}
+
+#order-state {
+  margin: 0 5px 0 2px;
+  height: 26px;
+  border: 1px solid #d5d5d5;
+  font-size: 12px;
+  color: #353535;
+  vertical-align: middle;
+}
+
+.division {
+  display: inline-block;
+  color: #aaaaaa;
+  margin-right: 2px;
+  font-size: 12px;
+}
+.period {
+  display: inline-block;
+  margin: 0 7px;
+}
+.period div {
+  display: inline-block;
+  margin: 0 0 0 -6px;
+  padding: 5px;
+  color: #aaaaaa;
+  text-align: center;
+  font-size: 11px;
+  border: 1px solid #e7e7e7;
+  background: #fafafa;
+}
+
+/* 양쪽 끝만 모서리 둥글게 */
+#period_left {
+  /* topLeft topRight bottomRight bottomLeft */
+  border-radius: 5px 0 0 5px;
+}
+
+#period_right {
+  border-radius: 0 5px 5px 0;
+}
+
+.calendar {
+  display: inline-block;
+}
+
+.calendar img {
+  padding: 0;
+  margin: 0 5px -2px 2px;
+  overflow: visible;
+}
+
+input[type="date"] {
+  /* input 박스를 선택하면 달력이 뜨게 지금은X => jquery의 datepicker을 써야 함 */
+  /* position: relative; */
+  font-size: 12px;
+  border-radius: 0px;
+  border: 1px solid #d5d5d5;
+  width: 100px;
+  height: 22px;
+  margin: 0 0 0 2px;
+  padding: 0 6px;
+}
+
+input[type="date"]::-webkit-clear-button,
+input[type="date"]::-webkit-inner-spin-button {
+  /* 삼각형 모양의 드롭다운 선택버튼 없앰 */
+  /* 1일씩 조절하는 버튼 없앰*/
+  display: none;
+  appearance: none;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  /* input 박스 안에 있는 달력 안보이게 처리 */
+  background: transparent;
+  color: transparent;
+  cursor: pointer;
+}
+
+.serach_button {
+  display: inline-block;
+}
+
+#search_button {
+  font-size: 12px;
+  text-align: center;
+  border-radius: 4px;
+  border: 0px solid #ffffff;
+  outline: none;
+  color: #ffffff;
+  background-color: #404040;
+  width: 45px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.order-helpText ul {
+  margin: 10px 0 0;
+  color: #939393;
+}
+
+.order-helpText li {
+  padding: 0 0 0 9px;
+  font-size: 0.75em;
+}

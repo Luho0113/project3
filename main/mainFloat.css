@@ -1,0 +1,74 @@
+#floatArea{
+    position: fixed;
+    top:280px;
+    right: -1px;
+}
+
+#floatArea table{
+    width: 40px;
+    height: 240px;
+    border-collapse: collapse;
+    background-color: white;
+    border: 0.1px solid rgb(179, 179, 179);
+}
+#floatArea table .needLine{
+    border: 0.1px solid rgb(179, 179, 179);
+}
+#floatArea img{
+    width: 25px;
+    margin: 0 5px;
+}
+
+#floatArea img:hover{
+    opacity: 50%;
+}
+
+#floatLeftArea{
+    display: none;
+    position: fixed;
+    top: 400px;
+    padding: 5px;
+}
+
+#floatLeftArea a{
+    text-decoration: none;
+    color: inherit;
+}    
+
+.floatLeft{
+    border: 1px solid rgb(179, 179, 179);
+    border-radius: 5px;
+    background-color: rgba(250,250,250,0.5);
+}
+
+.floatLeftUp{
+    margin: 3px;
+    padding: 5px 8px;
+    font-size: smaller;
+    border-radius: 5px;
+}
+
+.floatLeftUp:hover{
+    background-color: rgb(179, 179, 179);
+    color: white;
+}
+
+.floatLeftDown{
+    margin: 3px;
+    padding: 5px 8px;
+    font-size: smaller;
+    border-radius: 5px;
+    
+}
+
+
+
+.floatLeftDown:hover{
+    background-color: rgb(179, 179, 179);
+    color: white;
+}
+/* .all-content a:hover{
+    background-color: rgb(155, 155, 155);
+    color: white;
+    border-radius: 3px;
+} */

@@ -1,0 +1,130 @@
+.outline{
+    margin: auto;
+    width: 1250px;
+}
+
+/*색깔 #E8E8E8 수정*/
+#outline{
+    border: 1px solid #E8E8E8; border-radius: 15px;  
+    padding-bottom: 20px;
+    margin: auto; margin-top: 100px; margin-bottom: 150px; width: 400px;
+}
+
+/*폰트 변경*/
+.title{
+    /*border: 2px solid blue;*/
+    position: relative;
+    padding: 20px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: lighter
+}
+
+.right{
+    text-align: right;
+    font-size: 11px;
+    position: relative;
+}
+
+.right a{
+    text-decoration: none;
+    color: #757575;
+    font-size: 11px;
+}
+
+/*색깔 #E8E8E8 수정, 글씨 크기 수정*/
+.input{
+    border: 1px solid #E8E8E8;
+    position: relative;
+    margin: 0px 35px 5px 35px;
+    padding: 8px 10px;
+    font-size: x-small;
+}
+
+.input:hover{
+    border: 1px solid #222222;
+}
+
+#id{
+    margin: 0px 0px 0px 80px;
+    width: 205px;
+    padding: 0px;
+    border: none;
+    outline: none;
+}
+
+#password{
+    margin: 0px 0px 0px 39px;
+    width: 210px;
+    padding: 0px;
+    border: none;
+    outline: none;
+}
+
+.submit_button{
+    margin: 25px 35px 5px 35px;
+    position: relative;
+    width: 330px;
+    height: 50px;
+    border: 1px solid #DDDDDD;
+    background-color: #222222;
+    color: white;
+}
+
+.submit_button:hover, .join_button:hover{
+    background-color: white;
+    color: #222222;
+}
+
+.naver_login{
+    /*position: relative;*/
+    margin: 0px 0px 5px 35px; /*top right botton left*/
+    width: 163px;
+    height: 30px;
+    float: left;
+    border: none;
+    background-color: #25C625;
+    color: white;
+    font-size: 11px;
+}
+
+.kakao_login{
+    /*position: relative;*/
+    margin: 0px 35px 5px 0px; /*top right botton left*/
+    width: 163px;
+    height: 30px;
+    float: right;
+    border: none;
+    background-color: #FAE601;
+    font-size: 11px;
+}
+
+.naver_login:hover, .kakao_login:hover{
+    background-color: #888888;
+    color: white;
+}
+
+.find{
+    border-bottom: 1px solid #E8E8E8;
+    position: relative;
+    margin: 30px 35px 10px 35px;
+    padding: 10px 0px;
+    font-size: x-small;
+}
+
+.find a{
+    color: black;
+}
+
+.join_button{
+    margin: 5px 35px 5px 35px;
+    position: relative;
+    border: none;
+    width: 330px;
+    height: 50px;
+    border: 1px solid #DDDDDD;
+    background-color: #8F8F8F;
+    color: white;
+}
+
+

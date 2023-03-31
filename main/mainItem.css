@@ -1,0 +1,239 @@
+
+
+#bestItem{
+    width: 1245px;
+    margin: 50px auto;
+    border: 1px solid white;
+}
+
+.bestItemText{
+    text-align: center;
+    width: 1245px;
+    margin: 80px 0 60px 0;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.bestItemImgBox1{
+    width: 1245px;
+    height: 415px;
+    float: left;
+}
+
+.bestItemImgBox1 img{
+    width: 395px;
+}
+
+.bestItemImg1{
+    margin: 0 10px 5px 0;
+}
+
+.bestItemImg1:hover {
+    opacity: 50%;
+}
+
+
+.bestItemImg2{
+    margin: 0 12px 5px 12px;
+}
+
+.bestItemImg2:hover {
+    opacity: 50%;
+}
+
+.bestItemImg3{
+    margin: 0 0 5px 10px;
+}
+
+.bestItemImg3:hover {
+    opacity: 50%;
+}
+
+.colorBoxImg{
+    margin: 0 0;
+    height: 24px;
+    /* width: 230px;  여기서 안먹어져서 html에 추가함*/
+}
+
+.bestItemExplanation1{
+    width: 1245px;
+    display: inline-flex;
+}
+
+.ItemExplanation1 {
+    position: relative;
+    font-size: smaller;
+    top: 10px;
+    width: 397px;
+    margin: 0 10px 5px 0;
+}
+.ItemExplanation2 {
+    position: relative;
+    font-size: smaller;
+    top: -10px;
+    width: 397px;
+    margin: 0 15px 5px 15px;
+}
+.ItemExplanation3 {
+    position: relative;
+    font-size: smaller;
+    top: -10px;
+    width: 397px;
+    margin: 0 0 5px 10px;
+}
+.ItemExplanationName{
+    padding: 0 0 10px 0;
+    box-shadow: 0 0.5px rgb(179, 179, 179);
+}
+#ItemExplanationPrice{
+    margin: 10px 0 0 0;
+    color: rgb(0,139,204);
+    font-weight: bolder;
+}
+#ItemExplanationPoint img{
+    position: relative;
+    top: 3px;
+}
+
+.ItemExplanationPrice{
+    margin: 10px 0 0 0;
+    color: rgb(0,139,204);
+    font-weight: bolder;
+}
+.ItemExplanationPoint img{
+    position: relative;
+    top: 3px;
+}
+.ItemExplanation1:hover .hiddenMenu{
+    opacity: 1;
+}
+
+.ItemExplanation2:hover .hiddenMenu{
+    opacity: 1;
+}
+
+.ItemExplanation3:hover .hiddenMenu{
+    opacity: 1;
+}
+
+
+
+
+.bestItemImgBox2{
+    padding: 100px 0 0 0;
+    width: 1245px;
+    height: 415px;
+    float: left;
+}
+
+.bestItemImgBox2 img{
+    width: 395px;
+}
+
+.bestItemExplanation2{
+    width: 1245px;
+    display: inline-flex;
+}
+
+.bestItemImg4:hover {
+    opacity: 50%;
+}
+.bestItemImg5:hover {
+    opacity: 50%;
+}
+.bestItemImg6:hover {
+    opacity: 50%;
+}
+.ItemExplanation4 {
+    position: relative;
+    font-size: smaller;
+    top: -10px;
+    width: 397px;
+    margin: 0 10px 5px 0;
+}
+.ItemExplanation5 {
+    position: relative;
+    font-size: smaller;
+    top: -10px;
+    width: 397px;
+    margin: 0 15px 5px 15px;
+}
+.ItemExplanation6 {
+    position: relative;
+    font-size: smaller;
+    top: -10px;
+    width: 397px;
+    margin: 0 0 5px 10px;
+}
+
+
+
+#newItem{
+    width: 1245px;
+    margin: 0 auto;
+    border: 1px solid white;
+}
+
+.newItemText{
+    text-align: center;
+    width: 1245px;
+    margin: 80px 0 60px 0;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.newItemImgBox1{
+    width: 1245px;
+    height: 415px;
+    float: left;
+}
+
+.newItemImgBox1 img{
+    width: 395px;
+}
+
+.newItemImg1{
+    margin: 0 10px 5px 0;
+}
+.newItemImg1:hover {
+    opacity: 50%;
+}
+.newItemImg2{
+    margin: 0 12px 5px 12px;
+}
+.newItemImg2:hover {
+    opacity: 50%;
+}
+.newItemImg3{
+    margin: 0 0 5px 10px;
+}
+.newItemImg3:hover {
+    opacity: 50%;
+}
+
+.newItemExplanation{
+    width: 1245px;
+    display: inline-flex;
+    margin: 80px 0 80px 0;
+}
+
+.newItemExplanation .ItemExplanation1 { /* 위에랑 달리 색상이 없어서 여기만 따로 적용해줌*/
+    position: relative;
+    font-size: smaller;
+    top: -10px;
+    width: 397px;
+    margin: 0 10px 5px 0;
+}
+
+.newItemImgBox2{
+    padding: 100px 0 0 0;
+    width: 1245px;
+    height: 415px;
+    float: left;
+}
+
+.newItemImgBox2 img{
+    width: 395px;
+}
+
+

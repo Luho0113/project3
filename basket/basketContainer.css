@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#container {
+  position: relative;
+  margin: 5px auto 50px;
+}
+
+#contents {
+  width: 1100px;
+  margin: 5px auto 50px;
+  /* border-style: solid;
+    border-width: 1px; */
+}
+
+.location-subpage {
+  border: none;
+}
+.path-subpage {
+  line-height: 30px;
+  font-size: 11px;
+  color: #757575;
+}
+
+.path-subpage ol {
+  /*Home*/
+  float: right;
+  margin: 0;
+  padding: 0;
+  color: #757575;
+}
+
+.path-subpage li {
+  float: left;
+}
+.path-subpage li img {
+  /* > 모양 이미지*/
+  margin: 0 0 0 7px;
+}
+.path-subpage li strong {
+  /*Cart*/
+  padding: 0 0 0 11px;
+  color: #222;
+}
+
+.title-subpage {
+  margin: 0 0 20px;
+}
+
+.title-subpage h2 {
+  /*CART*/
+  margin-top: 20px; /*CART만 아래로*/
+  padding-top: 18px;
+  color: #2e2e2e;
+  font-size: 16px;
+  font-weight: bold;
+}
