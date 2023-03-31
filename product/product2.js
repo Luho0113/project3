@@ -89,27 +89,27 @@ $(window).scroll(function() {
 
 //작은 상품 이미지 hover 시 큰 이미지로 띄우기
 $('#small1').hover(function(){
-        $('#main').attr('src','../image(yej)/상품이미지(small).gif');
+        $('#main').attr('src','../image(yej)/두번째상품(main).gif');
 		$('#small1').css('cursor', 'pointer');
 });
 
 $('#small2').hover(function(){
-        $('#main').attr('src','../image(yej)/상품이미지2(small).jpg');
+        $('#main').attr('src','../image(yej)/두번째상품(small).jpg');
 		$('#small2').css('cursor', 'pointer');
 });
 
 $('#small3').hover(function(){
-        $('#main').attr('src','../image(yej)/상품이미지3(small).jpg');
+        $('#main').attr('src','../image(yej)/두번째상품2(small).jpg');
 		$('#small3').css('cursor', 'pointer');
 });
 
 $('#small4').hover(function(){
-        $('#main').attr('src','../image(yej)/상품이미지4(small).jpg');
+        $('#main').attr('src','../image(yej)/두번째상품3(small).jpg');
 		$('#small4').css('cursor', 'pointer');
 });
 
 $('#small5').hover(function(){
-        $('#main').attr('src','../image(yej)/상품이미지5(small).jpg');
+        $('#main').attr('src','../image(yej)/두번째상품4(small).jpg');
 		$('#small5').css('cursor', 'pointer');
 });
 
@@ -130,6 +130,5 @@ onChange = () => {
 	};
 
 };
-
 
 

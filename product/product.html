@@ -43,7 +43,7 @@
     </div>
     
     <div id="logo">
-        <a href="../main/main.html">
+        <a href="../main.html">
             <img src="../logo/coolTenLogo.png" class="logoimg">
         </a>
         
@@ -162,7 +162,7 @@
     <div class="outline">
 
         <div class="top_bar"> <!--현재 페이지 상단 바-->
-            <div class="right"><a href="./main/main.html">Home</a> > <a href="#">TOP</a> > <a href="#">티셔츠</a></div>
+            <div class="right"><a href="./main.html">Home</a> > <a href="#">TOP</a> > <a href="#">티셔츠</a></div>
         </div>
 
     <div class="top_product">
@@ -200,7 +200,7 @@
 
             <!--가격 및 적립금 표-->
             <table class="price">
-                <tr>top
+                <tr>
                     <th>판매가</th>
                     <td>18,900 won</td>
                 </tr>
@@ -216,12 +216,12 @@
                 <tr>
                     <th>> 색상</th>
                     <td>
-                        <select name="color" id="color"  onchange="onChange()" style="width: 300px; font-size: 13px;">
+                        <select name="color_ej" id="color_ej"  onchange="onChange()" style="width: 300px; font-size: 13px;">
                             <option value="default">-[필수]옵션을 선택해 주세요.-</option>
                             <option value="." disabled>-----------</option>
-                            <option value="white">화이트</option>
-                            <option value="black">블랙</option>
-                            <option value="pink">핑크</option>
+                            <option value="화이트">화이트</option>
+                            <option value="블랙">블랙</option>
+                            <option value="핑크">핑크</option>
                         </select>
                     </td>
                 </tr>
@@ -255,13 +255,14 @@
                     <tr>
                         <td class="select_option_name" style="width: 250px;"></td>
                         <td style="width: 10px;"><input type="number" onchange="changeNum()" min="1" value="1" style="width: 50px;"></td>
-                        <td class="item_price">여기가 수량</td>
+                        <td class="item_price">18,900 won</td>
                     </tr>
                 </table>
             </div>
 
             <div class="total_price">
-                <strong>TOTAL</strong>: <em style="font-size: 19px;">0</em> (0개) <!-- 계산 필요-->
+                <strong>TOTAL </strong>: <strong style="font-size: 17px;" class="item_price_view"> 0 won </strong> 
+                <span class="item_num_view" style="background-color: white; color: black;">(0개)</span> <!-- 계산 필요-->
             </div>
 
             <div class="top_buy_button">
@@ -512,12 +513,12 @@
                 <tr>
                     <th>색상</th>
                     <td>
-                        <select name="color" id="color" onchange="onChange()" style="width: 200px; font-size: 13px;">
+                        <select name="color_ej" id="color_ej" onchange="onChange()" style="width: 200px; font-size: 13px;">
                             <option value="default">-[필수]옵션을 선택해 주세요.-</option>
                             <option value="." disabled>-----------</option>
-                            <option value="white">화이트</option>
-                            <option value="black">블랙</option>
-                            <option value="pink">핑크</option>
+                            <option value="화이트">화이트</option>
+                            <option value="블랙">블랙</option>
+                            <option value="핑크">핑크</option>
                         </select>
                     </td>
                 </tr>
@@ -552,13 +553,14 @@
                     <tr>
                         <td class="select_option_name" style="width: 140px;"></td>
                         <td style="width: 10px;"><input type="number" min="1" value="1" style="width: 50px;"></td>
-                        <td class="f_item_price">여기가 수량</td>
+                        <td class="item_price">18,900 won</td>
                     </tr>
                 </table>
             </div>
 
             <div class="f_total_price">
-                <strong>TOTAL</strong>: <em style="font-size: 19px;">0</em> (0개) <!-- 계산 필요-->
+                <strong>TOTAL </strong>: <strong style="font-size: 17px;" class="item_price_view"> 0 won </strong> 
+                <span class="item_num_view" style="background-color: rgba(0, 0, 0, 0); color: black;">(0개)</span> <!-- 계산 필요-->
             </div>
 
             <div class="f_top_buy_button">
@@ -624,7 +626,7 @@
     </div>
 
 <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
-<script src="../product.js"></script>
+<script src="./product.js"></script>
 <script src="../main/main.js"></script>
 <script src="../main/mainImg.js"></script>
 <script src="../main/mainHidden.js"></script>

@@ -210,7 +210,6 @@ h2{
 
 .img_box{
     width: 1250px;
-    border: 1px solid red;
     display: flex;
     justify-content: space-between;
 }
@@ -278,6 +277,7 @@ h2{
     background-color: #FFFFFF;
 }
 
+
 /*위드 아이템, 리뷰, 큐앤에이*/
 h3{
     text-align: center;
@@ -288,14 +288,14 @@ h3{
 }
 
 /*위드 아이템, 리뷰, 큐앤에이*/
-.bottom p{
+.bottom_ej p{
     text-align: center;
     font-size: 12px;
     color: #888888;
     width: 1250px;
 }
 
-.bottom div{
+.bottom_ej div{
     border-top: 1px solid #E4E4E4;
     border-bottom: 1px solid #E4E4E4;
     margin-top: 30px;
