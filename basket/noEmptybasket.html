@@ -200,6 +200,7 @@
             <h2>CART</h2>
           </div>
         </div>
+
         <!--회원정보박스-->
         <div class="info-box">
           <div class="information">
@@ -223,15 +224,16 @@
         <div class="tab">
           <div class="menu">
             <div class="selected-korea">
-              <a href="#"> 국내배송상품</a>
+              <a href="tab1" class="btn"> 국내배송상품</a>
             </div>
             <div class="selected-abroad">
-              <a href="#">해외배송상품</a>
+              <a href="#tab2" class="btn">해외배송상품</a>
             </div>
           </div>
+
           <div class="basket-page">
             <!--일반 상품-->
-            <div class="basket-List-Area">
+            <div class="basket-List-Area" id="tab1">
               <div class="basket-title">
                 <h3>일반상품 (1)</h3>
               </div>
@@ -351,6 +353,13 @@
                 </tfoot>
               </table>
             </div>
+
+            <div class="basket-empty" id="tab2">
+              <div class="icon_basket_empty">
+                <img src="../img/icon_basket_empty.PNG" />
+              </div>
+              해외배송의 장바구니가 비어 있습니다.
+            </div>
           </div>
         </div>
 
@@ -427,7 +436,8 @@
           <div class="all-buy" id="all-buy">전체상품주문</div>
           <div class="select-buy" id="select-buy">선택상품주문</div>
           <div class="shopping-continue" id="shopping-continue">
-            쇼핑계속하기
+            <a href="../main/main.html" id="ahome">쇼핑계속하기</a>
+            <!-- 쇼핑계속하기 -->
           </div>
         </div>
 
@@ -557,6 +567,7 @@
     </div>
   </body>
   <script src="./basketButton.js"></script>
+  <script src="./ifnoEmpty.js"></script>
 
   <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
   <script src="../main/main.js"></script>
