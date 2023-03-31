@@ -33,7 +33,7 @@
   position: relative;
   float: right;
   margin: 0 0;
-  padding: 0 1em;
+  /* padding: 0 1em; */
   line-height: 41px;
   width: 125px;
 
@@ -41,4 +41,9 @@
   background: #fff;
   color: #666;
   border: 1px solid #e3e3e3;
+}
+
+#ahome {
+  padding: 12px 27px 13px 26px;
+  border-radius: 0.3em;
 }
