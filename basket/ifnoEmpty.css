@@ -118,7 +118,6 @@ input[type="checkbox"] {
   padding: 10px;
 }
 
-/* div들 다시 정렬해야함 */
 .delivery_price div {
   display: inline-block;
   margin-left: 10px;
