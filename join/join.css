@@ -56,7 +56,7 @@ h5{
     margin-bottom: 10px;
 }
 
-th{
+.outline th{
    background-color: #FBFBFB; 
    text-align: left;
    font-size: 11px;
@@ -67,7 +67,7 @@ th{
    border: 1px solid #E7E7E7;
 }
 
-td{
+.outline td{
     font-size: 11px;
     background-color: white;
     border: 1px solid #E7E7E7;

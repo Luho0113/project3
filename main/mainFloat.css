@@ -9,10 +9,10 @@
     height: 240px;
     border-collapse: collapse;
     background-color: white;
-    border: 0.1px solid rgb(179, 179, 179);
+    border: 0.1px solid rgb(179, 179, 179) !important;
 }
 #floatArea table .needLine{
-    border: 0.1px solid rgb(179, 179, 179);
+    border: 0.1px solid rgb(179, 179, 179) !important;
 }
 #floatArea img{
     width: 25px;
